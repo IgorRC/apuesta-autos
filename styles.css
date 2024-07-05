@@ -1,0 +1,89 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+main {
+    margin: 2em;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.car-option {
+    display: inline-block;
+    margin: 1em;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: border-color 0.3s;
+}
+
+.car-option img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    border-bottom: 2px solid #ccc;
+}
+
+.car-details {
+    text-align: left;
+    padding: 10px;
+}
+
+.car-option:hover {
+    border-color: #28a745;
+}
+
+#betting-status {
+    margin-top: 1em;
+    color: #28a745;
+}
+
+#results {
+    margin-top: 1em;
+    font-size: 1.2em;
+}
